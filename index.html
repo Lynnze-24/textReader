@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Reader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="reader">
+    <div class="reader-display">
+      <textarea></textarea>
+    </div>
+    <div class="reader-controls">
+      <div class="upper">
+          <div class="number-input">
+          <label for="number">Speed</label>
+          <input id="number" type="number" value="1" min="-9" max="10">
+          <div class="arrows">
+            <div class="arrow-up"></div>
+            <div class="arrow-down"></div>
+          </div>
+        </div>
+
+        
+        <button>Read</button>
+        <button>Pause</button>
+        <button>Stop</button>
+      </div>
+    
+      
+      <div class="select">
+        <p>Choose Voice: </p>
+          <select >
+            <!-- <option value="0">Woman</option>
+            <option value="1">Man</option>
+            <option value="2">Girl</option> -->
+          </select>
+      </div>
+
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
